@@ -1,0 +1,7 @@
+domain: taskorientedprojects.com
+
+cpanel: https://rcp-40.controlpanel.si:2083/
+
+username: toprojects
+
+password: xG23%(fLG1258!=
