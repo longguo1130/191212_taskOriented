@@ -351,7 +351,7 @@ taskCard
 <!-- begin:: Content -->
 <div class="kt-content  kt-grid__item kt-grid__item--fluid" id="kt_content">
 <div class="row">
-<div class="col-lg-3">
+<div class="col-lg-2">
 <!--begin::Portlet-->
 <div class="kt-portlet">
 <div class="kt-portlet__head">
@@ -364,9 +364,7 @@ taskCard
     </div>
     <div class="kt-portlet__head-toolbar">
         <div class="kt-portlet__head-actions">
-            <a href="#" class="btn btn-label-instagram btn-pill">
-                AddTask
-            </a>
+            <button type="button" class="btn btn-outline-brand btn-elevate btn-pill"><i class="flaticon-add"></i> Add Task</button>
         </div>
     </div>
 </div>
@@ -452,7 +450,7 @@ taskCard
                 PROJECT
             </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 person-tag">
             <a href="#" class="btn btn-sm btn-icon btn-label-instagram btn-pill btn-icon-md">
                 TS
             </a>
@@ -486,7 +484,7 @@ taskCard
 
             </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 person-tag">
             <a href="#" class="btn btn-sm btn-icon btn-label-instagram btn-pill btn-icon-md">
                 TS
             </a>
@@ -520,7 +518,7 @@ taskCard
 
             </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 person-tag">
             <a href="#" class="btn btn-sm btn-icon btn-label-instagram btn-pill btn-icon-md">
                 TS
             </a>
@@ -553,7 +551,7 @@ taskCard
                 PROJECT, GERMANY, NEW
             </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 person-tag">
             <a href="#" class="btn btn-sm btn-icon btn-label-instagram btn-pill btn-icon-md">
                 TS
             </a>
@@ -583,25 +581,19 @@ taskCard
 <div class="kt-portlet">
 <div class="kt-portlet__head">
     <div class="kt-portlet__head-label">
-        <button type="button" class="btn btn-outline-brand btn-elevate btn-icon">
+        <button type="button" class="btn btn-outline-brand btn-elevate btn-icon header-btn">
             <i class="fa fa-align-justify"></i>
         </button>
-    </div>
-    <div class="kt-portlet__head-label">
-        <button type="button" class="btn btn-outline-brand btn-elevate btn-icon">
+        <button type="button" class="btn btn-outline-brand btn-elevate btn-icon header-btn">
             <i class="flaticon-laptop"></i>
         </button>
-    </div>
-    <div class="kt-portlet__head-label">
-        <button type="button" class="btn btn-outline-brand btn-elevate btn-icon">
+        <button type="button" class="btn btn-outline-brand btn-elevate btn-icon header-btn active">
             <i class="flaticon-background"></i>
         </button>
     </div>
     <div class="kt-portlet__head-toolbar">
         <div class="kt-portlet__head-actions">
-            <a href="#" class="btn btn-label-instagram btn-pill">
-                AddTask
-            </a>
+            <button type="button" class="btn btn-outline-brand btn-elevate btn-pill"><i class="flaticon-add"></i> Add Task</button>
         </div>
     </div>
 </div>
@@ -622,10 +614,8 @@ taskCard
                         FIRST ORDER
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <a href="#" class="btn btn-sm btn-icon btn-label-instagram btn-pill btn-icon-md">
-                        TS
-                    </a>
+                <div class="col-lg-3 person-tag">
+
                 </div>
             </div>
             <div class="kt-space-10"></div>
@@ -709,10 +699,8 @@ taskCard
                         VEHICLE
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <a href="#" class="btn btn-sm btn-icon btn-label-instagram btn-pill btn-icon-md">
-                        TS
-                    </a>
+                <div class="col-lg-3 person-tag">
+
                 </div>
             </div>
             <div class="kt-space-10"></div>
@@ -797,10 +785,8 @@ taskCard
                         FIRST ORDER
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <a href="#" class="btn btn-sm btn-icon btn-label-instagram btn-pill btn-icon-md">
-                        TS
-                    </a>
+                <div class="col-lg-3 person-tag">
+
                 </div>
             </div>
             <div class="kt-space-10"></div>
@@ -908,10 +894,8 @@ taskCard
                         FIRST ORDER
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <a href="#" class="btn btn-sm btn-icon btn-label-instagram btn-pill btn-icon-md">
-                        TS
-                    </a>
+                <div class="col-lg-3 person-tag">
+
                 </div>
             </div>
             <div class="kt-space-10"></div>
@@ -1000,9 +984,7 @@ taskCard
             </div>
             <div class="kt-portlet__head-toolbar">
                 <div class="kt-portlet__head-actions">
-                    <a href="#" class="btn btn-label-instagram btn-pill">
-                        AddTask
-                    </a>
+                    <button type="button" class="btn btn-outline-brand btn-elevate btn-pill"><i class="flaticon-add"></i> Add Task</button>
                 </div>
             </div>
         </div>
@@ -1052,47 +1034,32 @@ taskCard
         </div>
     </div>
 </div>
-</div>
-</div>
-
-<!-- end:: Content -->
-</div>
-
-<!-- begin:: Footer -->
-<div class="kt-footer kt-grid__item kt-grid kt-grid--desktop kt-grid--ver-desktop" id="kt_footer">
-    <div class="kt-footer__copyright">
-        2019&nbsp;&copy;&nbsp;<a href="http://keenthemes.com/metronic" target="_blank" class="kt-link"></a>
+<div class="col-lg-4">
+<div class="kt-portlet kt-portlet--tabs kt-portlet--height-fluid">
+<div class="kt-portlet__head">
+    <div class="kt-portlet__head-label">
+        <h3 class="kt-portlet__head-title">
+            Details
+        </h3>
     </div>
-    <div class="kt-footer__menu">
-
+    <div class="kt-portlet__head-toolbar">
+        <ul class="nav nav-tabs nav-tabs-line nav-tabs-bold nav-tabs-line-brand" role="tablist">
+            <li class="nav-item active">
+                <a class="nav-link active" data-toggle="tab" href="#kt_quick_panel_tab_information" role="tab">INFORMATION</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#kt_quick_panel_tab_logs" role="tab">BUDGET</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#kt_quick_panel_tab_settings" role="tab">STATISTICS</a>
+            </li>
+        </ul>
     </div>
 </div>
-
-<!-- end:: Footer -->
-</div>
-</div>
-</div>
-
-<!-- end:: Page -->
-
-<div id="kt_quick_panel" class="kt-quick-panel">
-<a href="#" class="kt-quick-panel__close" id="kt_quick_panel_close_btn"><i class="flaticon2-delete"></i></a>
-<div class="kt-quick-panel__nav">
-    <ul class="nav nav-tabs nav-tabs-line nav-tabs-bold nav-tabs-line-3x nav-tabs-line-brand  kt-notification-item-padding-x" role="tablist">
-        <li class="nav-item active">
-            <a class="nav-link active" data-toggle="tab" href="#kt_quick_panel_tab_information" role="tab">INFORMATION</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#kt_quick_panel_tab_logs" role="tab">BUDGET</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#kt_quick_panel_tab_settings" role="tab">STATISTICS</a>
-        </li>
-    </ul>
-</div>
-<div class="kt-quick-panel__content">
+<div class="kt-portlet__body">
+<div class="kt-scroll" data-scroll="true" style="height: 600px">
 <div class="tab-content">
-<div class="tab-pane fade show kt-scroll active" id="kt_quick_panel_tab_information" role="tabpanel">
+<div class="tab-pane active" id="kt_quick_panel_tab_information">
 <div class="detail-infomation-content">
 <div class="row detail-information-title">
     Projects > Baustelle Uim
@@ -1308,15 +1275,28 @@ taskCard
 </div>
 </div>
 </div>
-<div class="tab-pane fade kt-scroll" id="kt_quick_panel_tab_logs" role="tabpanel">
+<div class="tab-pane" id="kt_quick_panel_tab_logs">
 
 </div>
-<div class="tab-pane kt-quick-panel__content-padding-x fade kt-scroll" id="kt_quick_panel_tab_settings" role="tabpanel">
+<div class="tab-pane" id="kt_quick_panel_tab_settings">
 
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
+
+<!-- end:: Content -->
+</div>
+
+<!-- end:: Footer -->
+</div>
+</div>
+</div>
+
+<!-- end:: Page -->
 
 @section('scripts')
 <script type="text/javascript" charset="utf-8" src="/js/task/taskcard.js"></script>

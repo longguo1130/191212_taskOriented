@@ -33,8 +33,21 @@ div.final-sub-task-name {
     margin-bottom: auto;
 }
 div.project-name {
-    font-size: 8pt;
+    font-size: 7pt;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
+
+div.kt-portlet__head-label  button.header-btn {
+    margin-left: 10px;
+}
+
+div.person-tag {
+    text-align: right;
+}
+
 div.task-start-date, div.task-end-date {
     font-size: 8pt;
     letter-spacing: 2px;
@@ -236,7 +249,7 @@ div.kt-quick-panel {
 }
 
 .detail-infomation-content {
-    padding: 0px 20px 10px 50px;
+    padding: 0px 20px 10px 20px;
 }
 
 .detail-information-staus {
@@ -271,6 +284,10 @@ div.kt-quick-panel {
 
 .detail-content {
     color: black;
+    letter-spacing: 1px;
+}
+
+.detail-label {
     letter-spacing: 2px;
 }
 
