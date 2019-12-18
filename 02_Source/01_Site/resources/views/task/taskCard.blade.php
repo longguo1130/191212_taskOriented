@@ -232,13 +232,13 @@ taskCard
                     </a>
                 </li>
                 <li class="kt-menu__item  kt-menu__item--open kt-menu__item--here kt-menu__item--submenu kt-menu__item--rel kt-menu__item--open kt-menu__item--here kt-menu__item--active" data-ktmenu-submenu-toggle="click" aria-haspopup="true">
-                    <a href="javascript:;" class="kt-menu__link kt-menu__toggle">
+                    <a href="task/taskCard" class="kt-menu__link">
                         <i class="kt-nav__link-icon flaticon2-cardiogram"></i>
                         <span class="kt-menu__link-text top-menu">Task Cards</span>
                     </a>
                 </li>
                 <li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel" data-ktmenu-submenu-toggle="click" aria-haspopup="true">
-                    <a href="javascript:;" class="kt-menu__link kt-menu__toggle">
+                    <a href="task/taskList" class="kt-menu__link">
                         <i class="kt-nav__link-icon flaticon2-list-3"></i>
                         <span class="kt-menu__link-text top-menu">Task List</span>
                     </a>
